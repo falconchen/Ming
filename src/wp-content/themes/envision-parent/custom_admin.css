@@ -1,0 +1,57 @@
+#menu-posts-doctors  div.wp-menu-image{
+    background: url("../images/icons/doctors.png") no-repeat scroll 5px -16px transparent!important;
+    height: 16px;
+    margin-top: 5px;
+}
+#menu-posts-doctors:hover  div.wp-menu-image,
+#menu-posts-doctors.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/doctors.png") no-repeat scroll 5px 0 transparent!important;
+    height: 16px;
+}
+#menu-posts-services  div.wp-menu-image{
+    background: url("../images/icons/medical_services.png") no-repeat scroll 5px -16px transparent!important;
+    height: 16px;
+    margin-top: 5px;
+}
+#menu-posts-services:hover  div.wp-menu-image,
+#menu-posts-services.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/medical_services.png") no-repeat scroll 5px 0 transparent!important;
+    height: 16px;
+}
+#toplevel_page_tf_contact_forms_list .wp-menu-image a img{
+    display:none;
+}
+#toplevel_page_tf_contact_forms_list .wp-menu-image{
+    background: url("../images/icons/contact-forms.png") no-repeat scroll 5px -16px transparent!important;
+    height: 16px !important;
+    margin-top: 8px; }
+#menu-posts-testimonials  div.wp-menu-image{
+    background: url("../images/icons/testimonials.png") no-repeat scroll 5px -16px transparent!important;
+    height: 16px ;
+    margin-top: 6px;
+}
+#toplevel_page_tf_contact_forms_list:hover  div.wp-menu-image,
+#toplevel_page_tf_contact_forms_list.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/contact-forms.png") no-repeat scroll 5px 0 transparent!important;
+    height: 16px;
+}
+#menu-posts-testimonials:hover  div.wp-menu-image,
+#menu-posts-testimonials.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/testimonials.png") no-repeat scroll 5px 0 transparent!important;
+    height: 16px;
+}
+
+#toplevel_page_tf_slider_list  div.wp-menu-image a img{
+    display: none;
+}
+#toplevel_page_tf_slider_list  div.wp-menu-image{
+    background: url("../images/icons/sliders.png") no-repeat scroll 5px -16px transparent!important;
+    height: 16px;
+    margin-top: 5px;
+}
+#toplevel_page_tf_slider_list:hover  div.wp-menu-image,
+#toplevel_page_tf_slider_list.wp-has-current-submenu  div.wp-menu-image{
+    background: url("../images/icons/sliders.png") no-repeat scroll 5px 0 transparent!important;
+    height: 16px;
+}
+

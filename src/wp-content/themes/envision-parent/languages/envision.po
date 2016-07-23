@@ -1,0 +1,1538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Envision\n"
+"POT-Creation-Date: 2012-12-14 15:48+0200\n"
+"PO-Revision-Date: 2012-12-14 15:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\wp_multisite\\wp-content\\themes"
+"\\envision\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wp_multisite\\wp-content\\themes"
+"\\envision\n"
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/404.php:10
+msgid "Page not found"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/404.php:11
+msgid "The page you were looking for doesn&rsquo;t seem to exist"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/archive-portfolio.php:51
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/archive.php:34
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/search.php:35
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments-template.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments-template.php:43
+msgid "Edit"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments-template.php:54
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments-template.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:15
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:29
+msgid "Comments"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:33
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:56
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:34
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:38
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:73
+msgid "Add a comment"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:63
+msgid "No comments yet."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:74
+msgid "Top"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:84
+msgid "You must be"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:84
+msgid "logged in"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:84
+msgid "to post a comment."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:92
+msgid "Logged in as"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:92
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:92
+msgid "Logout"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:97
+msgid "Name"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:102
+msgid "Email"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:104
+msgid "it will not be shared"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:108
+msgid "Website"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:114
+msgid "You can use these tags"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:117
+msgid "Message"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/comments.php:123
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:22
+msgid "Please fill in the form below:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:27
+msgid "Your name (required):"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:32
+msgid "Your email (required):"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:39
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:41
+msgid "Billing Support"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:42
+msgid "Pre purchase querstion"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:43
+msgid "Support Question"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:48
+msgid "Subject"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:55
+msgid "Your Message"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:62
+msgid "reset all fields"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:63
+msgid "sending ..."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:64
+msgid "Send Message"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:70
+msgid "Your message has been sent!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:71
+msgid "Thank you for contacting us,"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:71
+msgid "We will get back to you within 2 business days."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:75
+msgid "Oops!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/content-contact-form.php:76
+msgid ""
+"Due to an unknown error, your form was not submitted, please resubmit it or "
+"try later."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/listing-blog.php:37
+msgid "Continue reading"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/listing-blog.php:37
+msgid "Join the discussion"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/listing-portfolio.php:27
+msgid "NEW"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/listing-portfolio.php:43
+msgid "View project"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:263
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:284
+msgid "Select a category:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:307
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:328
+msgid "Select a page:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:371
+msgid "Select a tag:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:438
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:445
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:455
+msgid "Remove"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:452
+msgid "Type here to search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:461
+msgid "Tip: Save options to get rid of invalid ids"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/OPTIGEN.php:646
+msgid "Upload"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/core/UPDATER.php:132
+msgid "Proceed"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/export/TF_EXPORT.php:4
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/TF_IMPORT.php:4
+msgid "Direct access forbidden."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/export/views/after_download.php:7
+msgid "Failed to export XML file"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:62
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:71
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:134
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:143
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:220
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:224
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:233
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:63
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:451
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:930
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/views/install_error.php:7
+msgid "Failed to import XML file"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:42
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:67
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:72
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:262
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:225
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:266
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:292
+msgid "Assign Authors"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:293
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:295
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:305
+msgid "Import Attachments"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:308
+msgid "Download and import file attachments"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:325
+msgid "Import author:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:336
+msgid "or create new user with login name:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:339
+msgid "as a new user:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:347
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:349
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:350
+msgid "- Select -"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:400
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:449
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:487
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:531
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:657
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:553
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:574
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:629
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:779
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:786
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:849
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:862
+msgid "Invalid file type"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:906
+msgid "Remote server did not respond"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:912
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:924
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1029
+msgid "Import WordPress"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1036
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1051
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1052
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:148
+msgid "Add New "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:149
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:68
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:123
+msgid "Nothing found"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:930
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:966
+msgid "Zone"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:939
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:975
+msgid "Priority"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK.php:985
+msgid "Features Display Priority"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:38
+#, php-format
+msgid "Error importing seek index table: Cannot find \"%s\" file in \"%s\""
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:53
+#, php-format
+msgid ""
+"Skipping seek index table import: Table \"%s\" already exists and is not "
+"empty"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:73
+#, php-format
+msgid ""
+"Error importing Seek index table: No sql read from file \"%s\" in \"%s\""
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/views/drag_options_to_zones.php:21
+msgid "No Zone"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seek/views/drag_options_to_zones.php:157
+msgid ""
+"Drag features in this box if you don't want them to appear on the website"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:403
+msgid "Archive"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:435
+msgid "Author Archives"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:443
+msgid "Date Archive"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:475
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php:75
+msgid "Search Results for "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:475
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php:75
+#, php-format
+msgid "'%s'"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:489
+msgid "Page Not Found - 404 error"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:563
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:612
+#, php-format
+msgid "Title for %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:564
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:613
+#, php-format
+msgid ""
+"Enter custom title for %s. These settings may be overridden for individual "
+"%s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:571
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:620
+#, php-format
+msgid "Description for %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:572
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:621
+#, php-format
+msgid ""
+"Enter custom description for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:581
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:629
+#, php-format
+msgid "Keywords for %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:582
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:630
+#, php-format
+msgid ""
+"Enter custom meta keywords for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:638
+#, php-format
+msgid "Use noindex for %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:639
+#, php-format
+msgid "Enable or disable using of noindex for %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:654
+msgid "XML Sitemaps"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:657
+msgid "Enable XML Sitemaps"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:658
+msgid ""
+"Enable or disable XML Sitemaps. Sitemap will be generated when a new content "
+"will be added."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:673
+msgid ""
+"Please check the appropriate box below if there's a post type that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:685
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:712
+#, php-format
+msgid "Exclude %s"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:700
+msgid ""
+"Please check the appropriate box below if there's a taxonomy that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:730
+msgid "Use META keywords"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:731
+msgid "Use META keywords."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:738
+msgid "Use Canonical URLs"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:739
+msgid "Use Canonical URLs."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:746
+msgid "Title separator"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:747
+msgid ""
+"Title separator. Will be used by default to generate titles if some titles "
+"are not set"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:755
+msgid "General META"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:758
+msgid "General Description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:759
+msgid ""
+"Enter general description for all the pages (categories, arhives,  posts, "
+"etc)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:767
+msgid "General Keywords"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:768
+msgid ""
+"Enter general keywords for all the pages (categories, arhives,  posts, etc)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:778
+msgid "Title for Homepage"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:779
+msgid "Enter custom title for Homepage."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:785
+msgid "Description for Homepage"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:786
+msgid "Enter custom description for Homepage."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:794
+msgid "Keywords for Homepage"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:795
+msgid "Enter custom keywords for Homepage."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:805
+msgid "Title for Archives"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:806
+msgid ""
+"Enter custom title for Archives. This title may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:812
+msgid "Description for Archives"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:813
+msgid ""
+"Enter custom description for Archives. This description may be overridden by "
+"other specific archives (tags, categories, etc)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:820
+msgid "Keywords for Archives"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:821
+msgid ""
+"Enter custom keywords for Archives. This keywords may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:829
+msgid "Use noindex for Archive"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:830
+msgid "Enable or disable using of noindex for Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:838
+msgid "Title for Author"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:839
+msgid "Enter custom title for Author Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:845
+msgid "Description for Author"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:846
+msgid "Enter custom description for Author Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:853
+msgid "Keywords for Author"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:854
+msgid "Enter custom keywords for Author Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:862
+msgid "Use noindex for Author"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:863
+msgid "Enable or disable using of noindex for Author Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:871
+msgid "Title for Date"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:872
+msgid "Enter custom title for Date Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:878
+msgid "Description for Date"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:879
+msgid "Enter custom description for Date Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:886
+msgid "Keywords for Date"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:887
+msgid "Enter custom keywords for Date Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:895
+msgid "Use noindex for Date"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:896
+msgid "Enable or disable using of noindex for Date Archives."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:904
+msgid "Title for Attachment"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:905
+msgid "Enter custom title for Attachment."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:911
+msgid "Description for Attachment"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:912
+msgid "Enter custom description for Attachment."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:920
+msgid "Keywords for Attachment"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:921
+msgid "Enter custom keywords for Attachment."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:931
+msgid "Title for Search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:932
+msgid "Enter custom title for Search."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:938
+msgid "Description for Search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:939
+msgid "Enter custom description for Search."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:946
+msgid "Keywords for Search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:947
+msgid "Enter custom keywords for Search."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:955
+msgid "Use noindex for Search"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:956
+msgid "Enable or disable using of noindex for Search."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:964
+msgid "Title for 404"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:965
+msgid "Enter custom title for 404."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:971
+msgid "Description for 404"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:972
+msgid "Enter custom description for 404."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:980
+msgid "Keywords for 404"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:981
+msgid "Enter custom keywords for 404."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:991
+msgid "Title for Paged"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:992
+msgid "Enter custom title suffix for Paged."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1011
+msgid "Help"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1018
+msgid ""
+"These tags can be included and will be replaced when a page is displayed."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1022
+msgid "Replaced with the date of the post/page"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1026
+msgid "Replaced with the title of the post/page"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1030
+msgid "The site's name"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1034
+msgid "The site's tagline / description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1038
+msgid ""
+"Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1042
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1046
+msgid "Replaced with the current tag/tags"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1050
+msgid "Replaced with the post categories (comma separated)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1054
+msgid "Replaced with the category description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1058
+msgid "Replaced with the tag description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1062
+msgid "Replaced with the term description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1066
+msgid "Replaced with the term name"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1070
+msgid "Replaced with the post/page modified time"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1074
+msgid "Replaced with the post/page ID"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1078
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1082
+msgid "Replaced with the post/page author's userid"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1086
+msgid "Replaced with the current search phrase"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1090
+msgid "Replaced with the current time"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1094
+msgid "Replaced with the current date"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1098
+msgid "Replaced with the current month"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1102
+msgid "Replaced with the current year"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1106
+msgid "Replaced with the current page number (i.e. page 2 of 4)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1110
+msgid "Replaced with the current page total"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1114
+msgid "Replaced with the current page number"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1118
+msgid "Attachment caption"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1151
+msgid "SEO"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1157
+msgid "Page Title"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1158
+msgid "Enter your prefered custom title or leave blank for deafault value."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1164
+msgid "Page Description"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1165
+msgid ""
+"Enter your prefered custom description or leave blank for deafault value."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1172
+msgid "Page Keywords"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/seo/TF_SEO.php:1173
+msgid "Enter your prefered custom keywords or leave blank for deafault value."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/extensions/slider/TF_SLIDER.php:410
+msgid "Select Slider:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/GENERAL.php:25
+msgid "Exclude from slider"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/GENERAL.php:27
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/GENERAL.php:33
+msgid "Yes"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/GENERAL.php:31
+msgid "Set as main"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/INTERFACE.php:39
+msgid "ThemeFuse Download Group"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/INTERFACE.php:61
+msgid "ThemeFuse Gallery Group"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:23
+#, php-format
+msgid "Updating %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:24
+msgid "The package is at the latest version."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:25
+#, php-format
+msgid "Removing the old version of the %s&#8230;"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:26
+msgid "Could not remove the old version of the "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:27
+msgid "Update failed."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:28
+msgid "Package updated successfully."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:29
+msgid "Backing up files&#8230;"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:30
+msgid "Could not create backup directory."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/helpers/UPGRADER.php:35
+msgid "Return to Framework page"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/framework_header.php:25
+msgid "Framework"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/framework_header.php:29
+msgid "ThemeMods"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/framework_header.php:33
+msgid "Templates"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/page_framework_options.php:19
+msgid "Save All Changes"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/page_framework_options.php:32
+msgid "Reset All Options"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/page_framework_options.php:32
+msgid "Click OK to reset all options. All settings will be lost!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/update_page.php:3
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:3
+msgid "ThemeFuse Updates"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:6
+#, php-format
+msgid "Last checked on %1$s at %2$s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:7
+msgid "Check Again"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:13
+#, php-format
+msgid "You have the latest version of %s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:17
+#, php-format
+msgid ""
+"You have the latest version of %s. You do not need to update. However, if "
+"you want to re-install current version, you can do so automatically."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:21
+#, php-format
+msgid ""
+"Upgrading %1$s will overwrite the current installed version of this theme. "
+"We recommend backing up your theme files before reinstalling the %1$s."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:25
+msgid "Re-install Now"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:30
+msgid ""
+"<strong>Important:</strong> before updating, please <a href=\"http://codex."
+"wordpress.org/WordPress_Backups\" target=\"_blank\">back up your database "
+"and files</a>. For help with updates, visit the <a href=\"http://codex."
+"wordpress.org/Updating_WordPress\" target=\"_blank\">Updating WordPress</a> "
+"Codex page."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:34
+#, php-format
+msgid "An updated version of %s is available."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:38
+msgid "Update Now"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:80
+#, php-format
+msgid ""
+"<strong>Please Note:</strong> Any customizations you have made to theme "
+"files will be lost. Please consider using <a href=\"%s\">child themes</a> "
+"for modifications."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/framework/views/updater/upgrade_preamble.php:86
+msgid ""
+"While your site is being updated, it will be in maintenance mode. As soon as "
+"your updates are complete, your site will return to normal."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:22
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:116
+msgid "Add New"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:23
+msgid "Add New Reservation"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:24
+msgid "Edit Reservation info"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:25
+msgid "New Reservation"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:26
+msgid "All Reservations"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:27
+msgid "View Reservation info"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:49
+msgid "Add New Reservation Form"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:61
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:62
+msgid "Add New Portfolio"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:63
+msgid "Edit Portfolio info"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:64
+msgid "New Portfolio"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:65
+msgid "Portfolio"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:66
+msgid "View Portfolio info"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:67
+msgid "Search Portfolio"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:69
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:124
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:90
+msgid "Search Categories"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:91
+msgid "All Categories"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:92
+msgid "Parent Category"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:93
+msgid "Parent Category:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:94
+msgid "Edit Category"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:95
+msgid "Update Category"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:96
+msgid "Add New Category"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:97
+msgid "New Category Name"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:117
+msgid "Add New Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:118
+msgid "Edit Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:119
+msgid "New Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:120
+msgid "All Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:121
+msgid "View Testimonial"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/CUSTOM_POSTS.php:122
+msgid "Search Testimonials"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/common_includes/MENU.php:13
+msgid "Default Navigation"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php:205
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php:224
+msgid "Sending ..."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:20
+msgid "Stay in touch with us!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:21
+msgid "Thank you for your subscription."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:36
+msgid "Thank you for your subscribtion."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:37
+msgid "Your email format is wrong!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:38
+msgid "Sad, but we couldn't add you to our mailing list ATM."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:43
+msgid "ENTER your email address"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:50
+msgid "You can also folow us"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:50
+msgid "on RSS"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:52
+msgid "Loading..."
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php:15
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php:134
+msgid "Toggle Content (click to open)"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/shortcodes/shortcodes/widget.php:29
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/slider/designs/animated/template.php:26
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/slider/designs/text_content/template.php:61
+msgid "Previous"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/slider/designs/animated/template.php:27
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/slider/designs/text_content/template.php:62
+msgid "Next"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/extensions/slider/designs/text_content/template.php:53
+msgid "Find out more"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:60
+msgid "New Message from"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:63
+msgid "From:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:67
+msgid "Email: "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:68
+msgid "Name: "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:69
+msgid "Subject: "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:70
+msgid "Category: "
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:72
+msgid "You have a new message!"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/CONTACTFORM.php:73
+msgid "Message:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/PAGINATION.php:71
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/PAGINATION.php:72
+msgid "&nbsp;"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php:87
+msgid "Archive for"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php:96
+msgid "Page Not Found - <span>404 error</span>"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:186
+msgid "No Comments"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:188
+msgid " Comments"
+msgstr "zxcvzxcvzxcvzxcvzxcvzxcvzxvxcv"
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:194
+msgid "Comments are off"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:216
+msgid "Next page"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:217
+msgid "Prev page"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:491
+msgid "Twitter"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:492
+msgid "Facebook"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:493
+msgid "Flickr"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:494
+msgid "deviantART"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:495
+msgid "RSS Feed"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:9
+msgid "TFuse - Popular Posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:14
+msgid "Popular Posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:51
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:103
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:64
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:50
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:50
+msgid "Title:"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:55
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:54
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:54
+msgid "Number of posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:33
+msgid "Show Selected Categories"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:34
+msgid "TFuse Selected Categories"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:108
+msgid "Show post counts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:110
+msgid "Select Categories List"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:5
+msgid "Show Selected Pages"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:6
+msgid "TFuse Selected Pages"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:70
+msgid "Select Pages List"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:8
+msgid "TFuse - Discussed Posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:13
+msgid "Discussed Posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:8
+msgid "TFuse - Recent Posts"
+msgstr ""
+
+#: C:\wamp\www\wp_multisite\wp-content\themes\envision/envision-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:13
+msgid "Recent Posts"
+msgstr ""

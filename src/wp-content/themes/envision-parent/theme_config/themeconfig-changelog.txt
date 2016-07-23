@@ -1,0 +1,114 @@
+*** ThemeConfig Changelog ***
+
+ 2013.08.02 - version 2.2.3
+ * wp 3.6 bugs solved
+    envision-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+    envision-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+    envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php
+    envision-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+
+ 2013.06.19 - version 2.2.2
+ * featured image
+    envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * extended function tfuse_rewrite_worpress_reading_options
+    envision-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+    envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * twitter api v1.1
+    envision-parent/theme_config/options/admin_options.php
+
+ 2013.04.10 - version 2.2.1
+ * post count, image in rss functions
+    envision-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php
+    envision-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+    envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+    envision-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+ * welcome bar wpml translation
+    envision-parent/theme_config/theme_includes/TFUSE_WELCOME_BAR.php
+ * wpml translation all page options
+    envision-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+    envision-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+
+ 2013.01.30 - version 2.2
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2013.01.18 - version 2.1.14
+ * portfolio on homepage
+
+ 2012.12.17 - version 2.1.13
+ * flash slider on homepage
+ * new .mo/.po file for qtranslate
+
+ 2012.12.10 - version 2.1.12
+ * custom  field on contact form
+
+ 2012.11.30 - version 2.1.11
+ * contact form js conflicts
+ * featured image as main image
+
+ 2012.11.22 - version 2.1.10
+ * contact form submit form
+
+ 2012.11.20 - version 2.1.9
+ * new option in homepage tab added
+ * changes in header.php file
+
+ 2012.11.12 - version 2.1.8
+ * homepage and blog page  new options
+
+ 2012.10.26 - version 2.1.7
+ * reservation-form translation
+
+ 2012.10.22 - version 2.1.6
+ * changed new classes on butoon shortcode
+ * added 'tfuse' for __ and _e
+
+ 2012.09.20 - version 2.1.5
+ * video adding on portfolio
+
+ 2012.09.12 - version 2.1.4
+ * two contact-form on page
+
+ 2012.09.12 - version 2.1.3
+ * flash slider problem
+
+ 2012.08.29 - version 2.1.2
+ * contact-form changes
+ * reservation-form changes
+
+ 2012.08.22 - version 2.1.1
+ * copyright option in dashboard
+ * testimonials shortcode
+ * reservationform small change
+
+ 2012.08.21 - version 2.1
+ * new reservation form
+
+ 2012.08.08 - version 2.0.8
+ * contact form final version
+
+ 2012.07.06 - version 2.0.7
+ * contact-form v3
+ * chart shortcode
+
+ 2012.07.25 - version 2.0.6
+ * contact-form v2
+
+ 2012.07.13 - version 2.0.5
+ * new contact-form implementation
+
+ 2012.07.13 - version 2.0.4
+ * removed shortcode link in admin_options.php
+
+ 2012.06.27 - version 2.0.3
+ * wp 3.4 re-update
+ * disable preloadcss coment
+
+ 2012.06.14 - version 2.0.2
+ * wp 3.4 update
+
+ 2012.06.11 - version 2.0.1
+ * Aded function "tfuse_themestyle" in file Theme_Function.php
+
+ 2012.03.31 - version 2.0
+ * First release!

@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'VegurRegular';
+	src: url('Vegur-R_0500.eot');
+	src: local('Vegur Regular'), local('Vegur-Regular'), url('Vegur-R_0500.ttf') format('truetype');}
+
+h1,h2,h3,h4,h5,h6, 
+.tabFrameBox .tabs li,
+.bar-title h1, .bar-title .title,
+input[type="reset"],input[type="submit"],input[type="button"], button,
+.button_link, .sidebar .button_link, .fancy_button, .gl_col_1 .gallery-more a,
+.topmenu {
+	font-family:'VegurRegular', Arial, sans-serif;}
+
+/* General Headers */
+h1{
+	font-size:25px;
+	line-height:25px;
+	letter-spacing:0;}	
+h2{
+	font-size:22px;
+	line-height:22px;
+	color:#444e69;
+	margin-bottom:15px}
+	
+h3{
+	font-size:19px;
+	line-height:22px;}
+	
+h4{
+	font-size:17px;
+	color:#333;
+	margin-bottom:10px;}
+	
+h5{
+	font-size:14px;
+	font-weight:normal;}
+	
+h6{
+	font-size:12px;
+	font-weight:normal;
+	color:#444e69;}
+
+/* Welcome Bar */
+.bar-title h1, .bar-title .title {
+	font-size:30px;
+	color:#444e69;
+	line-height:30px;}
+
+.bar-title h1 span, .bar-title .title span {
+	color:#874d82}
+
+/* Headers in Content */
+.text h1, .text h2, .text h3, .text h4, .text h5, .text h6,
+.box h1, .box h2, .box h3, .box h4, .box h5, .col_1 h1{
+	color:#111;}
+
+.text h1, .box h1, .col_1 h1 {
+	font-size:25px}
+
+.col h2, .text h2 {
+	margin:5px 0 15px;
+	font-size:22px}
+
+.col h3, .text h3 {
+	margin:5px 0 15px 0;}
+
+.col h4, .text h4 {
+	margin:5px 0 10px 0;
+	font-size:17px}
+
+.col h5, .text h5 {
+	margin:5px 0 10px 0;
+	font-size:16px}
+
+.col h6, .text h6 {
+	margin:5px 0 10px 0;
+	text-transform:uppercase;
+	font-size:13px}
+
+.sidebar h3 {
+	font-weight:bold;
+	color:#444;}
+
+/* Forms & Buttons */
+.button_link, .sidebar .button_link, .fancy_button, .gl_col_1 .gallery-more a{
+	font-size:16px;}
+
+.button_link span, .fancy_button span, .gl_col_1 .gallery-more a span,
+.button_link:active span, .gl_col_1 .gallery-more a:active span {
+	padding:8px 0px 13px 30px;}
+
+.button_link.large_button span,
+.button_link.large_button:active span {
+	padding:16px 0px 18px 30px;}

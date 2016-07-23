@@ -1,0 +1,327 @@
+<?php
+/*
+Plugin Name: 美女捕手
+Plugin URI: https://www.cellmean.com/beauty-catcher
+Description: 捕捉美女图片到Wordpress
+Version: 1.0
+Author: Falcon
+Author URI: https://www.cellmean.com
+*/
+
+new BeautyCatcher();
+class BeautyCatcher
+{
+
+    public function __construct(){
+
+        register_activation_hook(__FILE__, 'BeautyCatcher::install');
+        register_uninstall_hook(__FILE__, 'BeautyCatcher::uninstall');
+        register_deactivation_hook(__FILE__, 'BeautyCatcher::deactivation', 0);
+        add_action('admin_menu', array(&$this, 'admin_menu'), 2);
+        add_action('wp_ajax_ajax_catch_image', array($this,'ajax_catch_image'));
+        add_filter( 'mime_types', array($this,'add_mime_types' ));
+        add_filter( 'post_mime_types', array($this,'custom_mime_types' ));
+        add_filter('ajax_query_attachments_args',array($this,'beauty_mime_type'));
+
+
+    }
+
+    public function  add_mime_types( $mime_types ) {
+        $mime_types['bc'] = 'image/beauty';
+        return $mime_types;
+    }
+
+    public function custom_mime_types( $post_mime_types ) {
+        //$post_mime_types['application/pdf'] = array( __( 'PDFs' ), __( 'Manage PDFs' ), _n_noop( 'PDF <span class="count">(%s)</span>', 'PDFs <span class="count">(%s)</span>' ) );
+        $post_mime_types['bc'] = array( __( 'Beauty' ), __( 'Manage Beauties' ), _n_noop( 'Beauty <span class="count">(%s)</span>', 'Beauties <span class="count">(%s)</span>' ) );
+
+        return $post_mime_types;
+    }
+
+
+
+    function beauty_mime_type($query){
+        if(isset($query['post_mime_type']) && $query['post_mime_type'] == 'bc'){
+            /*
+            $arr = explode('/',$query['post_mime_type']);
+            $terms = $arr[1];
+            $query['tax_query'] = array(
+                array(
+                    'taxonomy' => 'pdf',
+                    'field'    => 'slug',
+                    'terms'    =>$terms,
+                ),
+            );
+            */
+
+            $query['meta_query'] = array(
+                array(
+                    'key'     => '_via_bc',
+                    'value'   => '1',
+                    //'compare' => 'IN',
+                )
+            );
+            $query['post_mime_type'] = "image";
+            /*
+            global $wpdb;
+
+            if(!$wpdb->get_var("SELECT 1 FROM $wpdb->posts WHERE post_mime_type = 'bc'")){
+                wp_insert_attachment(
+                    array('post_mime_type'=>'bc','post_status'=>'inherit')
+                );
+            }
+            */
+
+        }
+        return $query;
+    }
+
+
+    public function admin_menu() {
+        add_menu_page('美女捕手', '美女捕手', 'manage_options', "beauty_catcher", array(&$this, 'settings'), 'dashicons-admin-tools', 3);
+        add_submenu_page('beauty_catcher', '设置', '设置', 'manage_options', "beauty_catcher", array(&$this, 'settings'));
+        add_submenu_page('beauty_catcher', '抓取', '抓取', 'manage_options', 'beauty_catcher_run', array(&$this, 'run'));
+        add_submenu_page('beauty_catcher', '测试', '测试', 'manage_options', 'beauty_catcher_test', array(&$this, 'test'));
+    }
+
+    static public function install() {
+        self::create_tables();
+    }
+
+    static public function uninstall() {
+        self::drop_tables();
+    }
+
+    static public function deactivation() {
+        // self::drop_tables();
+    }
+
+    static public function create_tables()
+    {
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'beauty';
+        if($wpdb->get_var("SHOW TABLES LIKE ".$table_name."") != $table_name){
+            $sql = 'CREATE TABLE `'.$table_name.'` (
+
+                    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+                    `title` VARCHAR( 1024 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+                    `url` VARCHAR( 256 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+                    `post_id` INT NOT NULL DEFAULT  "0" COMMENT  "对应的post_id",
+                    `used_count` INT NOT NULL DEFAULT  "0" COMMENT  "使用次数",
+                    `extra` TEXT NULL,
+
+
+					INDEX `post_id` (`post_id`),
+					INDEX `url` (`url`)
+				)
+				COLLATE="utf8_general_ci"
+				ENGINE=MyISAM;';
+
+            require_once(ABSPATH . "wp-admin/includes/upgrade.php");
+
+            dbDelta($sql);
+        }
+    }
+
+    static public function drop_tables() {
+        global $wpdb;
+
+        $table_name = $wpdb->prefix . 'beauty';
+
+        $wpdb->query('DROP TABLE IF EXISTS ' . $table_name);
+
+    }
+
+
+    public function settings(){
+        ?>
+        <h1>设置</h1><hr/>
+<?php
+    }
+
+    public function run(){
+        ?>
+
+        <h1>开始抓取</h1><hr/>
+        <div id="message" class="updated fade" style="display:none;margin:5px 15px 5px 0; "></div>
+        <script type="text/javascript">
+
+            var curr_page = 1;
+            var end_of_page = 60;
+
+            function setMessage(msg) {
+                jQuery("#message").html(msg);
+                jQuery("#message").show();
+            }
+
+            function ajax_catch_image() {
+
+                jQuery("#ajax_catch_image_btn").prop("disabled", true);
+                jQuery('#ajax_loading').show();
+
+                if(curr_page > end_of_page) {
+                    jQuery('#ajax_loading').hide();
+                    //jQuery("#ajax_catch_image_btn").prop("disabled", false);
+                    return ;
+                }
+                var url = 'http://my.oschina.net/yueshengwujie/blog/712571';
+                setMessage(url);
+                jQuery.ajax({
+                    url: "<?php echo admin_url('admin-ajax.php'); ?>",
+                    type: "GET",
+                    data: "action=ajax_catch_image&url="+encodeURIComponent(url),
+                    success: function(result) {
+                        var html = "";
+                        for (index in result.data.images){
+                            //console.log(result.data.images[index]+'>');
+                            html+=result.data.images[index];
+                        }
+                        jQuery('#thumbs').html(html).show();
+
+                        curr_page++;
+                        ajax_catch_image();
+                    },
+                    error: function(){
+                        ajax_catch_image();
+                    }
+                });
+            };
+
+            jQuery(document).ready(function($) {
+                $('#ajax_catch_image_btn').on('click',function(){
+                    curr_page = $('input[name=curr_page]').val();
+                    end_of_page = $('input[name=end_of_page]').val();
+                    ajax_catch_image();
+
+                });
+            });
+        </script>
+        <form method="post" action="" style="display:inline; float:left; padding-right:30px;">
+            <label>开始页:<input type="text" name="curr_page" value="1"></label>
+            <label>结束页:<input type="text" name="end_of_page" value="10"></label>
+            <input type="button" class="button"
+                   name="ajax_catch_image_btn" id="ajax_catch_image_btn"
+                   value="开始捕获" />
+            <img id="ajax_loading" src="<?php echo admin_url('images/loading.gif'); ?>" style="display:none;"/>
+            <br />
+            <div id="thumbs" style="display:none;"></div>
+        </form>
+
+        <?php
+    }
+
+    /*
+     * 				'post_type' => 'attachment',
+				'post_mime_type' => 'image',
+				'numberposts' => -1,
+				'post_status' => null,
+				'post_parent' => null, // any parent
+				'output' => 'object',
+     */
+    public function test() {
+        $args = array(
+            'posts_per_page' => 1,
+            'post_type'  => 'attachment',
+            'post_status' => 'any',
+            'post_mime_type' => 'image',
+            'orderby'    => 'rand',
+            //'order'      => 'ASC',
+            'meta_query' => array(
+                array(
+                    'key'     => '_via_bc',
+                    'value'   => '1',
+                    //'compare' => 'IN',
+                ),
+            ),
+        );
+        $query = new WP_Query( $args );
+        //var_dump($query);
+        while ($query->have_posts()){
+            $query->the_post();
+            $post_id = get_the_ID();
+            echo '<li>';
+            echo get_the_title();
+            echo '<br/>';
+            echo  get_attached_file( $post_id );
+            echo '<br/>';
+            echo  wp_get_attachment_url($post_id);
+            echo '<br/>';
+            echo  '</li>';
+        }
+    }
+
+    public function ajax_catch_image() {
+        set_time_limit(0);
+        ignore_user_abort();
+        $url = $_REQUEST['url'];
+
+        $response = wp_remote_get($url);
+        $content = str_replace("\n","",$response['body']);
+        //
+        preg_match_all('#<p><img.*?src="(.*?)"></p> <p><a.*?>(.*?)</a></p>#',$content,$match1);
+
+
+
+
+
+//        $image_urls = array_map(function($item,$title){
+//            $item = str_replace('-150x150','',$item);
+//            $this->_fetch_image_to_local($item,$title);
+//        },$match1[1],$match2[1]);
+        $image_arr = array_reverse($match1[1]);
+        $title_arr = array_reverse($match1[2]);
+
+        foreach($image_arr as $k => $item) {
+            if($k > 150) break;
+            $this->_fetch_image_to_local($item,$title_arr[$k]);
+            var_dump($k,$item.'<br/>'.$title_arr[$k]);
+        }
+
+
+        //wp_send_json_success(array('url'=>$url,'images'=>$images));
+        die();
+    }
+
+
+    protected function _fetch_image_to_local($img_url,$title="") {
+
+        $basename = basename($img_url);
+        $wp_upload_dir = wp_upload_dir() ;
+        $beauty_dir = $wp_upload_dir['basedir'] . '/beauty';
+
+        if(is_file($beauty_dir.'/'.$basename)){
+            echo "不采";
+            echo $beauty_dir.'/'.$basename;
+            return false;
+        }
+        echo "采集";
+        if(!is_dir($beauty_dir)){
+            @mkdir($beauty_dir,0777);
+        }
+        $filename = 'beauty/'.$basename;
+
+        $path = $beauty_dir . '/'. $basename;
+        if(!file_put_contents($path,file_get_contents($img_url))) {
+            return false;
+        }
+        $url = $wp_upload_dir['baseurl'] . '/' .$filename;
+        $image_type = wp_check_filetype_and_ext($path, $filename, null);
+        $attachment = array(
+            'post_mime_type' => $image_type['type'],
+            'guid' => $url,
+            'post_parent' => 0,
+            'post_title' => $title,
+            'post_content' => '',
+        );
+
+        $thumbnail_id = wp_insert_attachment($attachment,$filename,0);
+        if (!is_wp_error($thumbnail_id)) {
+            wp_update_attachment_metadata($thumbnail_id, wp_generate_attachment_metadata($thumbnail_id, $path));
+            update_post_meta($thumbnail_id,'_via_osc',1);
+        }else{
+            return false;
+        }
+
+
+    }
+}

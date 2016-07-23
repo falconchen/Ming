@@ -1,0 +1,206 @@
+.contact-form {
+    padding: 10px 0 20px;
+}
+.reservationForm #sending,.reservationForm #reservation_send_ok,.reservationForm #reservation_send_failure {
+    display: none;
+}
+.reservationForm br {
+    display: inline;
+}
+
+.reservationForm #sending span {
+	top:3px;
+	position:relative;}
+.reservationForm .btn-submit2 {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 20px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-shadow: 0 1px 1px #FFFFFF;
+	width:217px;
+	text-align:left;
+}
+.reservationForm label {
+    display: inline;
+    color: #000000!important;
+}
+
+.reservationForm .field_text .inputtext, .reservationForm select{
+    margin-right:20px !important;
+}
+.chrome .ui-datepicker-calendar .ui-state-default,
+.safari  .ui-datepicker-calendar .ui-state-default{
+    width: 29px !important;
+}
+.reservationForm .omega .inputtext{
+    margin-right:0px !important;
+}
+
+.reservationForm .omega .inputtext{
+    margin-right:0;
+}
+
+.reservationForm .field_textarea textarea{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin-bottom:0;
+    resize:none;
+}
+
+.tfuse_captcha_reload{
+    background-image:url(../images/reload.png)!important;
+    background-repeat: no-repeat!important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent;
+}
+.reservationForm .btn-submit {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 18px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: 217px;
+}
+.reservationForm .ui-selectmenu{
+    margin-right:20px;
+    color: #5E2F7F !important;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+.reservationForm .omega .ui-selectmenu{
+    margin-right:0px;
+}
+
+.reservationForm .field_text .tfuse_rf_post_datepicker_in, .reservationForm .field_text .tfuse_rf_post_datepicker_out{
+    background-image: url("../../../../../framework/static/images/picker_icon.jpg") !important;
+    background-repeat: no-repeat!important;
+    background-position: 7px 8px!important;
+    padding-left: 30px!important;
+    width: 16px;
+}
+#ui-datepicker-div
+{
+    z-index: 9999!important;}
+	
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #cccccc; background: #fff url(../../../../../css/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; }
+
+/* preview */
+#TB_ajaxContent .contact-form .ui-selectmenu {
+    margin-right:20px !important;
+}
+#TB_ajaxContent .reset-link a {
+    color: #519BCE;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-style: normal;
+}
+#TB_ajaxContent .reset-link a:hover {
+    color:#5e2f7f;}
+#TB_ajaxContent .contact-form .btn-submit {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 18px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: 217px;
+    text-transform:none;
+}
+#TB_ajaxContent .contact-form .btn-submit:hover{
+    color:#5e2f7f;
+    cursor:pointer;}
+#TB_ajaxContent .field_text .inputtext, #TB_ajaxContent select{
+    margin-right:20px !important;
+}
+#TB_ajaxContent .reservationForm .field_text .inputtext,#TB_ajaxContent .reservationForm select{
+    height:32px;
+}
+#TB_ajaxContent .ui-selectmenu {
+    height: 31px;
+}
+
+#TB_ajaxContent {
+    color: #000000 !important;
+}
+#TB_ajaxContent .tfuse_captcha_input{
+    height:32px;
+}
+#TB_ajaxContent .checkbox {
+    background-color: #FFFFFF !important;
+}
+
+#TB_ajaxContent .field_text .tfuse_rf_post_datepicker_in, #TB_ajaxContent .field_text .tfuse_rf_post_datepicker_out{
+    background-image: url("../../../../../framework/static/images/picker_icon.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-position: 7px 8px !important;
+    padding-left: 30px !important;
+    height: 34px !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover,
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border:1px solid #d9d9d9;
+    border-bottom: 1px solid #dad7d4;
+    font-weight:normal;
+    color: #5e2f7f;
+    background:#fff }
+
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu { display: block; position:relative; height:32px; text-decoration: none; overflow:hidden;}
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; }
+.ui-selectmenu-open { visibility: visible; background:#fff}
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu-dropdown {z-index: 1000;}
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border-bottom: 1px solid #dad7d4;  border-top: 0px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important; font-weight: normal !important; }
+.ui-selectmenu-menu li a,.ui-selectmenu-status {line-height: 1.2em; display:block; padding:.5em 10px; outline:none; text-decoration:none;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;}
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status { line-height: 1.4em; }
+.ui-selectmenu-menu-dropdown li a:hover, .ui-selectmenu-menu-dropdown .ui-state-hover { border-top:none}
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {
+    color: #5E2F7F !important;
+    background: url("../../../../../css/images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #FFFFFF;}
+.ui-selectmenu-open li.ui-selectmenu-item-selected { }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: normal; }
+.ui-selectmenu-menu li .ui-selectmenu-item-content {  }
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .9; }
+/*for optgroups*/
+.ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; font-weight: normal; }
+.ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+
+
+

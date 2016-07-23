@@ -1,0 +1,138 @@
+*** Envision Changelog ***
+
+ 2013.08.02 - version 2.2.2
+ * wp 3.6 bugs solved
+    envision-parent/style.css
+
+ 2013.06.19 - version 2.2.1
+ * extended function tfuse_rewrite_worpress_reading_options
+    envision-parent/page.php
+ * new install
+    envision-parent/install/uploads/wordpress-envision.xml_.txt
+
+ 2013.01.30 - version 2.2
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2013.01.18 - version 2.1.13
+ * portfolio on homepage
+
+ 2012.12.17 - version 2.1.12
+ * flash slider on homepage
+ * new .mo/.po file for qtranslate
+
+ 2012.12.10 - version 2.1.11
+ * custom  field on contact form
+
+ 2012.11.30 - version 2.1.10
+ * contact form js conflicts
+ * featured image as main image
+
+ 2012.11.22 - version 2.1.9
+ * contact form submit form
+
+ 2012.11.20 - version 2.1.8
+ * new option in homepage tab added
+ * changes in header.php file
+
+ 2012.11.12 - version 2.1.7
+ * homepage and blog page  new options
+
+ 2012.10.22 - version 2.1.6
+ * added 'tfuse' for __ and _e
+
+ 2012.09.20 - version 2.1.5
+ * jquery update
+ * video problem on portfolio
+
+ 2012.09.12 - version 2.1.4
+ * 2 contact forms on page
+ * 404.php page error
+
+ 2012.09.06 - version 2.1.3
+ * widget search emprovement
+
+ 2012.08.29 - version 2.1.2
+ * contact-form changes
+ * reservation-form changes
+
+ 2012.08.22 - version 2.1.1
+ * footer copyright
+ * testimonials shortcode
+ * .pot file update
+
+ 2012.08.21 - version 2.1
+ * new reservation form
+
+ 2012.08.08 - version 2.0.4
+ * contact-form final
+
+ 2012.07.25 - version 2.0.3
+ * contact-form v2
+
+ 2012.07.03 - version 2.0.2
+ * new contact-form implementation
+
+ 2012.06.22 - version 2.0.1
+ *pingback/trackback
+
+ 2012.08.06
+ *Addes theme-style-option in GeneralSettings bar
+
+   2012.03.31 - version 2.0
+ * Rewritten the theme
+ * Implemented a new framework
+
+   2012.02.17 - version 1.0.14
+ * /library/tfuse_framework/functions/core.php - Fixed error with XSS attack.
+ * /library/tfuse_framework/functions/install.php - AutoInstall update.
+ * thumb.php - Updated to 2.8.7 version.
+ * /library/tfuse_framework/admin/admin.php - ThemeFuse framework options are available only for admin users.
+
+   2011.09.29 - version 1.0.13
+ * Removed jquery.cookies.js file
+ * Added possibility to upload image for post preview from post options
+ * Solved Problem with Sidebars
+
+   2011.06.21 - version 1.0.12
+ * Fixed conflict with change_link function for e-commerce plugin
+ * Added option for translating custom fields with qtranslate
+
+   2011.05.10 - version 1.0.11
+ * Fixed issue with animated slider links in IE
+ * Implemented localization functionality
+
+   2011.05.2 - version 1.0.10
+ * Wordpress importer problem fixed
+
+   2011.04.27 - version 1.0.9
+ * New shortcodes added
+
+   2011.04.21 - version 1.0.8
+ * Activate/Deactivate SEO option
+
+   2011.04.15 - version 1.0.7
+ * Fixed issues with child theme menu problem
+
+   2011.04.11 - version 1.0.6
+ * Fixed SEO issues
+
+   2011.04.04 - version 1.0.5
+ * Compatible with Internet Explorer 9
+
+   18.03.2011 - version 1.0.4
+ * Fixed issues with Nivo Slider in IE8
+ * Added Newsletter Framework Option
+
+   2011.03.11 - version 1.0.3
+ * Fixed issues with Custom Menu widget and footer shortcodes
+
+   2011.03.7 - version 1.0.2
+ * Fixed issues with comments in firefox and buttons in sidebar
+
+   2011.02.26 - version 1.0.1
+ * Compatible with 3.1
+
+   2011.02.07 - version 1.0.0
+ * First release!
+

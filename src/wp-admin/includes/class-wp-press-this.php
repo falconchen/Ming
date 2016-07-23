@@ -841,7 +841,7 @@ class WP_Press_This {
 				$post_format = get_post_format( $post->ID );
 
 				if ( ! $post_format ) {
-					$post_format = '0';
+					$post_format = 'gallery';
 				}
 
 				// Add in the current one if it isn't there yet, in case the current theme doesn't support it.

@@ -1,0 +1,164 @@
+.contact-form {
+    padding: 5px 0 20px;
+}
+.contact-form #sending,.contact-form #reservation_send_ok,.contact-form #reservation_send_failure {
+    display: none;
+}
+.contact-form #sending span {
+    position: relative;
+    top: 3px;
+}
+.contact-form .btn-submit2 {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 20px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width:217px;
+    text-align:left;
+}
+.contact-form .ui-selectmenu {
+    margin-right: 20px;
+}
+.radiolabel{
+    padding-bottom: 3px!important;
+    padding-top: 3px!important;
+}
+
+.multicheckbox input[type="radio"] {
+    margin-top: 6px!important;
+	float: left;
+}
+
+.checkbox input[type="checkbox"]{
+    margin-top: 3px!important;
+	float: left;
+}
+
+.contact-form .row.checkbox{
+    padding: 0!important;
+}
+.tfuse_captcha_reload{
+    background-image:url(../images/reload.png)!important;
+    background-repeat: no-repeat!important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent;
+    margin-left: 10px;
+    border:0px;
+}
+.tfuse_captcha_img{
+    border: 0px;}
+
+.field_text .multicheckbox {
+    color:#12A0A9;
+}
+.radiolabel
+{
+    padding:10px;
+}
+.contact-form textarea{
+     width:93%;
+     margin-top:0px !important;
+}
+.contact-form .btn-submit {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 18px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: 217px;
+}
+/* preview*/
+#TB_ajaxContent .contact-form .ui-selectmenu {
+    margin-right: 20px;
+}
+#TB_ajaxContent
+#TB_ajaxContent .reset-link a {
+    color: #519BCE;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+#TB_ajaxContent .reset-link a:hover {
+    color:#5e2f7f;}
+
+#TB_ajaxContent .contact-form .btn-submit {
+    background: url("../../../../../images/btn_submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #2F3850;
+    font-family: "HattoriHanzoLight",Calibri,sans-serif;
+    font-size: 18px;
+    height: 49px;
+    line-height: 19px;
+    margin: 10px 0;
+    outline-width: 0;
+    padding: 3px 35px 15px;
+    text-align: center;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: 217px;
+}
+#TB_ajaxContent .contact-form .btn-submit:hover{
+    color:#5e2f7f;}
+#TB_ajaxContent #send {
+    cursor: pointer;
+}
+#TB_ajaxContent .checkbox {
+    background-color: #FFFFFF !important;
+}
+#TB_ajaxContent .reset-link a {
+    color: #519BCE;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-style: normal;
+}
+#TB_ajaxContent .reset-link a:hover {
+    color:#5e2f7f;}
+
+#TB_ajaxContent #send {
+    font-family: 'CartoGothicStdBold' !important;
+    font-size: 11px !important;
+    font-weight: bold;
+    padding-bottom: 2px;
+    text-align: left;
+}
+#TB_ajaxContent .contact-form label {
+    color: #000000;
+    display: block;
+    font-weight: normal;
+}
+
+#TB_ajaxContent .ajax_form .field_text .inputtext {
+    margin-right: 20px;}
+
+#TB_ajaxContent .ajax_form .row  .omega .field_text .inputtext{
+    margin-right: 0px !important;
+}
+
+#TB_ajaxContent .ajax_form .reset-link {
+    display: block;
+    float: right;
+    padding: 25px 25px 0 0;
+}
+.ui-selectmenu-menu-dropdown li a:hover, .ui-selectmenu-menu-dropdown .ui-state-hover {
+    border-top:none !important;
+    color: #5E2F7F !important;
+    background: url("../../../../../css/images/ui-bg_glass_100_f6f6f6_1x400.png") repeat-x scroll 50% 50% #FFFFFF;}

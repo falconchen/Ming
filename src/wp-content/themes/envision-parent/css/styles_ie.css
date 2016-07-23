@@ -1,0 +1,46 @@
+.best_price {
+	left:0}
+
+.tabcontent .inner {
+	padding:7px}
+
+.nivo-controlNav-Body {
+	width:140px;}
+
+.nivo-controlNav a {
+	display:block;
+	float:left; }
+.nivo-controlNav {
+    margin: auto;
+	padding-left: 15px;
+	padding-right: 15px; }
+
+.pagination {
+	padding-top:0px;
+}
+
+.pagination .page_next {
+	margin-right: 8px;
+	margin-left:20px;
+}
+
+.pagination .page_prev {
+	margin-right: 20px;
+	margin-left:10px;
+}
+
+.pagination .inner {
+	padding-right:0px;
+}
+
+.table_head_price {
+	padding-bottom:8px}
+
+.frame_box {
+	display: inline}
+
+.box {
+	width:100%}
+
+/*.text .box {
+	width:auto}*/

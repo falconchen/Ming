@@ -312,6 +312,7 @@ function do_shortcode_tag( $m ) {
 	}
 
 	$tag = $m[2];
+
 	$attr = shortcode_parse_atts( $m[3] );
 
 	if ( ! is_callable( $shortcode_tags[ $tag ] ) ) {
