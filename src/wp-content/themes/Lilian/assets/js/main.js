@@ -1898,7 +1898,7 @@
                 }
             }),
             a(".projects .col-xs-6").show();
-			var paged = paged || 2;	
+			var paged = paged || 3;
             a("#loadmore").on("click",
                 function(b) {
 					var loadmore_btn = jQuery(this);	
@@ -1977,6 +1977,8 @@
             });
 
         a("a,input,button").focus(function(){this.blur()}); // 去掉超链接或按钮点击时出现的虚线边框
-	
+
+        a(".loading").addClass('hidden');
+
 
     } (jQuery);

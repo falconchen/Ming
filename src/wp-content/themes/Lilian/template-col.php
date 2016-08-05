@@ -42,7 +42,7 @@ get_header();
                                 */
                                 $args = array(
 
-                                    'posts_per_page' => 1,
+                                    'posts_per_page' => 2,
                                     'order' => 'DESC',
                                     'orderby' => 'ID',
                                     'post_status' => 'publish',
@@ -56,6 +56,7 @@ get_header();
                                 );
 
                                 $the_query = new WP_Query($args);
+                                /*
                                 if ($the_query->have_posts()) {
                                     while ($the_query->have_posts()) {
                                         $the_query->the_post();
@@ -72,6 +73,7 @@ get_header();
                                     }
 
                                 }
+                                */
                                 ?>
                                 <?php if ($the_query->have_posts()) : ?>
                                     <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
@@ -103,7 +105,7 @@ get_header();
                                 <div class="col-xs-12 col-md-8 col-md-offset-2"><a href="javascript:void(0)"
                                                                                    id="loadmore"
                                                                                    class="btn btn-lg btn-block btn-default"> Show
-                                        more photos <i class="hidden loading fa fa-spinner fa-spin animated"></i></a></div>
+                                        more photos <i class="loading fa fa-spinner fa-spin animated"></i></a></div>
 
                             </div>
                         </div>

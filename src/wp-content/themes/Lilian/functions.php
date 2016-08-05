@@ -27,7 +27,7 @@ function lilian_theme_scripts_styles()
     wp_enqueue_style('main', LILIAN_TEMPLATE_ASSETS_URI . '/css/main.css'); // 主样式
 
     wp_enqueue_script('modernizr', LILIAN_TEMPLATE_ASSETS_URI . '/js/modernizr.min.js', null, false, false);
-    wp_enqueue_script('main', LILIAN_TEMPLATE_ASSETS_URI . '/js/main.min.js', array('jquery'), false, true);
+    wp_enqueue_script('main', LILIAN_TEMPLATE_ASSETS_URI . '/js/main.js', array('jquery'), false, true);
 
 }
 
