@@ -419,7 +419,7 @@ p:last-child {
     width: 33.33%;
     text-align: center;
     box-shadow: 1px 1px 0 0 #2a2b2c inset;
-    padding: 96px
+    padding: 26px
 }
 
 @media (max-width:1600px) {
